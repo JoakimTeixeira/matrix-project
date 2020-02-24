@@ -1,10 +1,10 @@
-function somarInteiros(n)
+function sumIntegers(n)
 {
   var sum = 0,
       count = 0,
       i = 0;
 
-  if(verificarNumero(n))
+  if(verifyNumber(n))
   {    
     while (count < n)
     {      
@@ -17,13 +17,13 @@ function somarInteiros(n)
 }
 
 
-function somarImpares(n)
+function sumOdd(n)
 {
   var sum = 0,
       count = 0,
       i = 0;
 
-  if(verificarNumero(n))
+  if(verifyNumber(n))
   {    
     while (count < n)
     {
@@ -39,12 +39,12 @@ function somarImpares(n)
 }
 
 
-function verificarNumero(n)
+function verifyNumber(n)
 {
   if (typeof n === 'number')
     return n;    
 }
 
 
-console.log("Soma de inteiros: " + somarInteiros(5));
-console.log("Soma de ímpares: " + somarImpares(5));
+console.log("Integers sum: " + sumIntegers(5));
+console.log("Odd sum: " + sumOdd(5));
