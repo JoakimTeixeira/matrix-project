@@ -1,4 +1,4 @@
-function somarInteiros(n){
+function sumIntegers(n){
   
   var sum = 0,
       count = 0,
@@ -14,4 +14,4 @@ function somarInteiros(n){
   }
 }
 
-console.log(somarInteiros(5));
+console.log(sumIntegers(5));
