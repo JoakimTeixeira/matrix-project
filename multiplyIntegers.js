@@ -1,10 +1,10 @@
-function multiplicarInteiros(n)
+function multiplyIntegers(n)
 {
   var sum = 1,
       count = 0,
       i = 1;
 
-  if(verificarNumero(n))
+  if(verifyNumber(n))
   {    
     while (count < n)
     {      
@@ -17,10 +17,10 @@ function multiplicarInteiros(n)
 }
 
 
-function verificarNumero(n)
+function verifyNumber(n)
 {
   if (typeof n === 'number')
     return n;    
 }
 
-console.log(multiplicarInteiros(5));
+console.log(multiplyIntegers(5));
